@@ -2,11 +2,21 @@
 
 Offline-first chat using **Gemma 4 E2B** in LiteRT-LM format (`gemma-4-E2B-it.litertlm`).
 
+## Screenshot
+
+![Gemma Chat Android screenshot](gemma-chat-android.jpeg)
+
 ## Model
 
 - **Hugging Face:** [litert-community/gemma-4-E2B-it-litert-lm](https://huggingface.co/litert-community/gemma-4-E2B-it-litert-lm)
 - **Runtime:** [LiteRT-LM Kotlin API](https://github.com/google-ai-edge/LiteRT-LM/blob/main/docs/api/kotlin/getting_started.md)
 - Onboarding downloads the `.litertlm` file once (~2.5 GB) via a plain HTTP GET to the public resolve URL. No Hugging Face account or in-app token is required.
+
+## Device Note
+
+- Tested on a **Pixel 7a**.
+- Observed local generation speed was around **~12 tokens/second** in typical use.
+- Real-world speed will vary based on prompt length, temperature/thinking mode, thermal state, and available memory.
 
 ## Build
 
