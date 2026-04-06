@@ -2,6 +2,17 @@
 
 Offline-first chat using **Gemma 4 E2B** in LiteRT-LM format (`gemma-4-E2B-it.litertlm`).
 
+Inspired in part by [Google AI Edge Gallery](https://github.com/google-ai-edge/gallery), especially its approach to on-device AI experiences and direct APK distribution for users outside Play Store access.
+
+## Download APK
+
+[Download the signed Android APK](https://github.com/amrrs/gemmachat-android/raw/main/dist/GemmaChat-1.0.0.apk)
+
+Install flow:
+- Download the APK on your Android phone.
+- Tap the APK file to install it.
+- If Android prompts, allow `Install unknown apps` for your browser or file manager.
+
 ## Screenshot
 
 ![Gemma Chat Android screenshot](gemma-chat-android.jpeg)
